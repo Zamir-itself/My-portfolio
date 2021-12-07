@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    src: url('../fonts/PTSans-Regular.ttf') format('truetype'); 
+}
+@font-face{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    src: url('../fonts/PTSans-Bold.ttf') format('truetype'); 
+}
+@font-face{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'); 
+}
+@font-face{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+   src: url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'); 
+}
