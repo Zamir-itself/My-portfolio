@@ -1,0 +1,252 @@
+@import 'fonts.css';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'rubik';
+  font-weight: 400;
+}
+/* wrapp */
+.wrapp{
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* navbar */
+.navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100vh;
+  background: #ffffff;
+  transition: width 0.5s;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.navbar:hover{
+  width: 235px;
+}
+.navbar__logo{
+  padding: 15px 5px;
+}
+.navbar__list a{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  margin: 7.5px 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #939393;
+  width: 300px;
+}
+.navbar__list svg{
+  margin-right: 32px;
+  fill: #939393;
+}
+.navbar__list a:hover svg,
+.navbar__list a:hover{
+  fill: #2A86B1;
+  color: #2A86B1;
+}
+.navbar__avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.navbar__avatar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* header */
+.header{
+  width: 1110px;
+  min-height: 500px;
+  border-radius: 15px;
+  margin: 30px auto;
+  padding: 62px;
+  background: #ffffff url('../images/header.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header h1,
+.header p{
+  width: 332px;
+  margin-bottom: 25px;
+}
+.header h1{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #464748;
+}
+.header p{
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #696868;
+}
+.header__btn,
+.read-more{
+  padding: 7px 63px;
+  border-radius: 30px;
+  background: #3FA5D5;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+.header__btn:hover,
+.read-more:hover{
+  background: #2A88B1;
+}
+/* uslugi */
+.uslugi{
+  width: 1110px;
+  min-height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.usligi__item{
+  width: 255px;
+  min-height: 330px;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.usligi__item h3{
+  font-weight: 700;
+  color: #2A86B1;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 24px 0 43px;
+  width: min-content;
+  text-align: center;
+}
+.read-more{
+  margin: 61px 0 19px;
+}
+/* content */
+.content{
+  width: 1110px;
+  min-height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.content__info{
+  width: 825px;
+  min-height: 100px;
+  /* border: 1px solid red; */
+}
+.content__news{
+  width: 255px;
+  min-height: 100px;
+  /* border: 1px solid red; */
+}
+.content h2{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #686868;
+  padding: 0 0 22px 15px;
+}
+.content__info p{
+  width: 100%;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #545454;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.news-item{
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.news-item img{
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.news-item__text h5{
+  font-size: 17px;
+  line-height: 16px;
+  margin-bottom: 5px;
+  color: #323232;
+}
+.news-item__text p{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 13px;
+  color: #000000;
+}
+/* footer */
+.footer{
+  width: 100%;
+  padding: 40px;
+  background: #3FA5D5;
+  margin-top: 29px;
+}
+.footer__center{
+  width: 1110px;
+  min-height: 50px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.footer__contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.phone{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.email{
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
