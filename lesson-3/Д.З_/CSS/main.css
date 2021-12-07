@@ -1,0 +1,27 @@
+a{
+
+}
+body{
+    background:url(./авто.jpg) no-repeat center/cover ;
+}
+.iteam{
+    padding: 10px 10px 10px 10px;   
+    border-radius: 50px 50px 50px 50px;
+}
+.iteam8{
+    background:url(.//Фото..jpg) no-repeat center/cover;
+    padding: 30px 30px 30px 30px;   
+    border-radius: 30px 30px 30px 30px;
+    border-width: 5px 10px 15px 3px ;
+    margin: 40px 500px 0 500px;
+      
+    
+}
+.iteam9{
+    background:url(.//Фото..jpg) no-repeat center/cover;
+    padding: 30px 30px 30px 30px;   
+    border-radius: 30px 30px 30px 30px;
+    border-width: 5px 10px 15px 3px ;
+    margin: 40px 500px 0 500px; 
+}
+
